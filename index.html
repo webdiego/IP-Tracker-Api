@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+ 
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+
+<div class="container-fluid  conta  ">
+ <div class="row  text-center back ">
+   <div class="col d-flex flex-column justify-items-center align-items-center mt-4 ">
+     <h1>IP Address Tracker</h1> 
+     <div class=" search mt-3">
+   <form >
+   <label  for="ip"> 
+     <input class=" " type="text" name="ip" placeholder="Search for any IP address or domain">
+    <button ><span class="ping">></span></button>
+     </form>
+
+     </div>
+   </div>
+</div>
+
+
+  <!--DISPLAY-->
+  <div class="row  bubble pt-4 pl-4">
+    <div class="col-sm ">
+      <p>IP Address</p>
+      <h4 class="ip"></h4>
+      <span class="line"></span>
+     
+    </div>
+
+    <div class="col-sm ">
+      <p>Location</p>
+      <h4 class="location"></h4>
+      <span class="line"></span>
+    </div>
+    <div class="col-sm">
+      <p>Timezone</p>
+      <h4 class="timezone"></h4>
+      <span class="line"></span>
+    </div>
+
+    <div class="col-sm">
+      <p>ISP</p>
+      <h4 class="isp"></h4>
+   
+    </div>
+  </div>
+ 
+
+<div id="mapid"></div>
+</div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+ <script src="./app.js"></script>
+ 
+</body>
+</html>
