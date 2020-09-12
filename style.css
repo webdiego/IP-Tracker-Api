@@ -7,7 +7,7 @@
 body{
   font-size: 62,5%;
   font-family: 'Rubik', sans-serif;
-  background: wheat;
+  background: rgb(252, 252, 252);
 }
 
 h1{
@@ -16,7 +16,7 @@ h1{
 }
 .conta{
   width: 100%;
-  height: 100vh;
+  height:100%;
   padding: 0 !important;
   position: absolute;
 
@@ -124,7 +124,7 @@ button{
   }
   @media only screen and (max-width:600px) {
   .bubble{
-    height: 38vh;
+    height: 20rem;
     transform: translateY(-140px);
     padding-left: 0 !important;
  }}
@@ -202,7 +202,7 @@ h4{
  #mapid{
 
    
-   height: 31.3rem;
+   height: 100%;
   
   
    transform: translateY(-160px);
@@ -210,8 +210,8 @@ h4{
  }
  @media only screen and (max-width:600px) {
   #mapid{
-   
-    transform: translateY(-290px);
+    height: 100%;
+    transform: translateY(-325px);
  }}
 
  .leaflet-control-zoom,.leaflet-bar,.leaflet-control{
