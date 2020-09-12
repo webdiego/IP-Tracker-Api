@@ -50,6 +50,7 @@ input{
 input:focus,textarea:focus, select:focus{
   outline: none;
 }
+
 button{
   width: 3.1rem;
   height: 3rem;
